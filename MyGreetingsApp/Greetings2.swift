@@ -8,25 +8,15 @@
 import SwiftUI
 
 struct Greetings2: View {
+    let messages: [DataItemModel] = [
+        DataItemModel(text: "Hello there", color: .green),
+        DataItemModel(text: "I love programming", color: .gray),
+        DataItemModel(text: "Welcome to swift school", color: .red),
+        DataItemModel(text: "Greeting", color: .yellow)
+    ]
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text("Greetings")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundStyle(.purple)
-                .padding()
-                .background(.orange.opacity(0.4))
-                .clipShape(RoundedRectangle(cornerRadius: 20))
-                .shadow(color: .orange, radius: 5, x: 10, y: 10)
-            
-            Text("Welcome to Swift Programming")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .foregroundStyle(.white)
-                .padding()
-                .background(.gray.opacity(0.4))
-                .clipShape(RoundedRectangle(cornerRadius: 20))
-                .shadow(color: .gray, radius: 5, x: 10, y: 10)
+            TextView(text: messages[0].text, color: messages[0].color)
         }
     }
 }
