@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Greetings2: View {
+struct MessagesView: View {
     let messages: [DataItemModel] = [
         DataItemModel(text: "Hello there", color: .green),
         DataItemModel(text: "I love programming", color: .gray),
@@ -16,11 +16,22 @@ struct Greetings2: View {
     ]
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            TextView(text: messages[0].text, color: messages[0].color)
+            
+            TitleView()
+            Spacer()
+            ForEach(messages) { dataItem in
+                TextView(text: dataItem.text, color: dataItem.color)
+            }
+            
+            Spacer()
+
+            Spacer()
+
         }
+        
     }
 }
 
 #Preview {
-    Greetings2()
+    MessagesView()
 }
