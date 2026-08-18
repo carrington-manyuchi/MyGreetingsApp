@@ -17,23 +17,14 @@ struct GreetingsView: View {
             )
             .opacity(0.7)
             .ignoresSafeArea()
-            
+           
             VStack {
-                Text("Greetings")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(.purple)
-                    .padding()
-                    .background(.orange)
-                    .padding()
-                    .shadow(
-                        color: .orange,
-                        radius: 5,
-                        x: 5,
-                        y: 5
-                    )
+                TitleView()
+                Spacer()
+                MessagesView()
+                Spacer()
+                Spacer()
             }
-            .padding()
         }
     }
 }

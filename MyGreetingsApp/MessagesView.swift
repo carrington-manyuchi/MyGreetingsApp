@@ -16,16 +16,9 @@ struct MessagesView: View {
     ]
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            
-            TitleView()
-            Spacer()
             ForEach(messages) { dataItem in
                 TextView(text: dataItem.text, color: dataItem.color)
             }
-            
-            Spacer()
-
-            Spacer()
 
         }
         
