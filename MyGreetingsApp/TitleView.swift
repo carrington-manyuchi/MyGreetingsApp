@@ -14,9 +14,7 @@ struct TitleView: View {
     let linewidth: CGFloat = 15.0
     let diameter = 70.0
     @State private var isRotated = false
-    
     @State private var subTitle: String = "Exploring iOS Programming"
-    
  
     let subTitles = [
         "Exploring iOS Programming",
@@ -49,7 +47,6 @@ struct TitleView: View {
             }
             
             Spacer()
-            
             Circle()
                 .strokeBorder(
                     angularGradient,

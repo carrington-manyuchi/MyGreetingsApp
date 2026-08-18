@@ -19,7 +19,6 @@ struct TextView: View {
         Color(red: 1, green: 215/255, blue: 0 )
     ]
 
-    
     var body: some View {
         Text(text)
             .font(.largeTitle)
@@ -33,7 +32,6 @@ struct TextView: View {
                 withAnimation {
                     color = colors.randomElement() ?? .green
                 }
-                
             }
     }
 }
