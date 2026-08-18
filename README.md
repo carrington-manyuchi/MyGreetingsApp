@@ -19,6 +19,7 @@ This tutorial application is designed to teach fundamental SwiftUI concepts incl
 
 ## 📸 Screenshot
 
-<img src="https://github.com/carrington-manyuchi/EmployeeOnboardingProcess/blob/cead3cf2acab749e8765c98b3658a165483f1de6/EmployeeOnboardingProcess/EmployeeDash.png" width="280"/>
+<img src="https://github.com/carrington-manyuchi/MyGreetingsApp/blob/908709a7df340272e50f38a90d7478a13052c22e/screenshot.png" width="280"/>
+
 
 ---
