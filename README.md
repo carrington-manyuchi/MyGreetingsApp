@@ -2,7 +2,7 @@
 A fun and interactive SwiftUI tutorial application that demonstrates core iOS development concepts through a colorful greeting display app.
 
 ##  📱 Overview
-MyGreetingsApp is a beginner-friendly SwiftUI project that showcases essential iOS development patterns while creating an engaging user experience. The app displays a collection of greeting messages with interactive elements that respond to user taps.
+MyGreetingsApp is a beginner-friendly SwiftUI project for my interns that showcases essential iOS development patterns while creating an engaging user experience. The app displays a collection of greeting messages with interactive elements that respond to user taps.
 
 ## 🎯 Purpose
 This tutorial application is designed to teach fundamental SwiftUI concepts including:
